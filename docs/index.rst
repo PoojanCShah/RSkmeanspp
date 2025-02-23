@@ -10,9 +10,7 @@ Installation
 
 Install from PyPI using
 
-   ``
-   pip install rskpp
-   ``
+   ``pip install rskpp``
 
 License 
 --------
@@ -34,5 +32,8 @@ Source Code : https://github.com/PoojanCShah/RSkmeanspp
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
+   description
+   reference 
+   example
+   experiments
