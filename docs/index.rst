@@ -1,6 +1,8 @@
 A Rejection Sampling Approach to k-means++
 ===========================================
 
+
+
 This project contains an implementation of the rejection sampling based RS-k-means++ algorithm introduced in [SAJ25]_  for performing the k-means++ seeding [AV07]_ . The implementation is compatible with NumPy and scikit-learn. 
 
 Installation
@@ -13,9 +15,15 @@ Install from PyPI using::
 License 
 --------
 
+The project is licensed under the MIT License.
 
 
+Support
+--------
 
+Reach me at : https://poojancshah.github.io/
+
+Source Code : https://github.com/PoojanCShah/RSkmeanspp
 
 
 .. [SAJ25] Poojan Shah, Shashwat Agrawal, and Ragesh Jaiswal. A New Rejection Sampling Approach to k-means++ With Improved Trade-Offs. 2025. arXiv: 2502.02085 [cs.DS]. url: https://arxiv.org/abs/2502.02085.
