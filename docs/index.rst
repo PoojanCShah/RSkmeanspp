@@ -8,33 +8,28 @@ This project contains an implementation of the rejection sampling based RS-k-mea
 Installation
 ------------
 
-Install from PyPI using
+This package can be directly installed from PyPI using
 
-   ``pip install rskpp``
+.. code-block:: python 
 
-License 
---------
-
-The project is licensed under the MIT License.
+   pip install rskpp
 
 
-Support
---------
-
-Reach me at : https://poojancshah.github.io/
-Source Code : https://github.com/PoojanCShah/RSkmeanspp
+Algorithm Description 
+----------------------
 
 
-.. [SAJ25] Poojan Shah, Shashwat Agrawal, and Ragesh Jaiswal. A New Rejection Sampling Approach to k-means++ With Improved Trade-Offs. 2025. arXiv: 2502.02085 [cs.DS]. url: https://arxiv.org/abs/2502.02085.
+Algorithm Reference 
+---------------------
 
-.. [AV07] David Arthur and Sergei Vassilvitskii. “k-means++: the advantages of careful seeding”.In: Proceedings of the Eighteenth Annual ACM-SIAM Symposium on Discrete Algorithms.SODA ’07. New Orleans, Louisiana: Society for Industrial and Applied Mathematics, 2007,pp. 1027–1035. isbn: 9780898716245. url: https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf.
+.. autofunction:: rskpp.rskmeanspp
 
 
 
 Example Usage 
 --------------
 
-The ``rskmeanspp`` function performs the seeding, which can used in conjunction with the k-means algorithm (also commonly known as Lloyd's iterations)
+The ``rskmeanspp`` function performs the seeding, which can used in conjunction with the k-means algorithm (also commonly known as Lloyd's iterations) from scikit-learn. 
 
 
 .. code-block:: python  
@@ -73,6 +68,23 @@ The ``rskmeanspp`` function performs the seeding, which can used in conjunction 
 
 
 
+
+License 
+--------
+
+The project is licensed under the MIT License.
+
+
+Support
+--------
+
+Reach me at : https://poojancshah.github.io/
+Source Code : https://github.com/PoojanCShah/RSkmeanspp
+
+
+.. [SAJ25] Poojan Shah, Shashwat Agrawal, and Ragesh Jaiswal. A New Rejection Sampling Approach to k-means++ With Improved Trade-Offs. 2025. arXiv: 2502.02085 [cs.DS]. url: https://arxiv.org/abs/2502.02085.
+
+.. [AV07] David Arthur and Sergei Vassilvitskii. “k-means++: the advantages of careful seeding”.In: Proceedings of the Eighteenth Annual ACM-SIAM Symposium on Discrete Algorithms.SODA ’07. New Orleans, Louisiana: Society for Industrial and Applied Mathematics, 2007,pp. 1027–1035. isbn: 9780898716245. url: https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf.
 
 
 
