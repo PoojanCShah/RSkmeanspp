@@ -18,38 +18,25 @@ This package can be directly installed from PyPI using
 Algorithm Description 
 ----------------------
 
-.. autofunction:: rskpp.rskmeanspp
 
 
 Algorithm Reference 
 ---------------------
 
-    ''' k-means++ seeding using rejection sampling
 
-    :param data: dataset of shape (n,d)
-    :type data: numpy.array 
+.. code-block:: python  
 
-    :param k: number of clusters
-    :type k: int 
+   rskmeanspp(data: np.array, k: int, m : int) -> np.array:
 
-    :param m: upper bound on number of rejection sampling iterations
-    :type m: int 
+**Parameters:**
 
-    :return: cluster centers of shape (k,d)
-    :rtype: numpy.array
+- **data** (`numpy.array`): Dataset of shape (n, d), where `n` is the number of data points and `d` is the number of features.
+- **k** (`int`): The number of clusters.
+- **m** (`int`): The upper bound on the number of rejection sampling iterations.
 
+**Returns:**
 
-    '''
-
-    **Parameters:**
-
-   - **data** (`numpy.array`): Dataset of shape (n, d), where `n` is the number of data points and `d` is the number of features.
-   - **k** (`int`): The number of clusters.
-   - **m** (`int`): The upper bound on the number of rejection sampling iterations.
-
-   **Returns:**
-
-   - (`numpy.array`): A NumPy array of shape (k, d) containing the `k` cluster centers.
+- (`numpy.array`): A NumPy array of shape (k, d) containing the `k` cluster centers.
 
 
 
