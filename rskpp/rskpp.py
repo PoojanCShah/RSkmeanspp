@@ -1,6 +1,6 @@
 import numpy as np 
 
-def rskmeanspp(data: np.array, k: int, m : int) -> list[int]:
+def rskmeanspp(data: np.array, k: int, m : int) -> np.array:
     ''' k-means++ seeding using rejection sampling
 
     :param data: dataset of shape (n,d)

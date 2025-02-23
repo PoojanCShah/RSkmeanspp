@@ -22,7 +22,22 @@ Algorithm Description
 Algorithm Reference 
 ---------------------
 
-.. autofunction:: rskmeanspp
+    ''' k-means++ seeding using rejection sampling
+
+    :param data: dataset of shape (n,d)
+    :type data: numpy.array 
+
+    :param k: number of clusters
+    :type k: int 
+
+    :param m: upper bound on number of rejection sampling iterations
+    :type m: int 
+
+    :return: cluster centers of shape (k,d)
+    :rtype: numpy.array
+
+
+    '''
 
 
 
