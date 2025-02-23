@@ -8,8 +8,13 @@ Installation
 
 Install from PyPI using 
 .. code-block:: python
-
    pip install rskpp
+
+
+License 
+--------
+
+
 
 
 
