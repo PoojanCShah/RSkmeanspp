@@ -41,6 +41,16 @@ Algorithm Reference
 
     '''
 
+    **Parameters:**
+
+   - **data** (`numpy.array`): Dataset of shape (n, d), where `n` is the number of data points and `d` is the number of features.
+   - **k** (`int`): The number of clusters.
+   - **m** (`int`): The upper bound on the number of rejection sampling iterations.
+
+   **Returns:**
+
+   - (`numpy.array`): A NumPy array of shape (k, d) containing the `k` cluster centers.
+
 
 
 Example Usage 
