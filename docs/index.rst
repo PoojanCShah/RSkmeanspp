@@ -18,6 +18,8 @@ This package can be directly installed from PyPI using
 Algorithm Description 
 ----------------------
 
+.. autofunction:: rskpp.rskmeanspp
+
 
 Algorithm Reference 
 ---------------------
@@ -94,6 +96,7 @@ Support
 --------
 
 Reach me at : https://poojancshah.github.io/
+
 Source Code : https://github.com/PoojanCShah/RSkmeanspp
 
 

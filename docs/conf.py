@@ -1,3 +1,8 @@
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../rskpp'))
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -34,7 +39,3 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path('..', 'rskpp').resolve()))
