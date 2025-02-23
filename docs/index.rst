@@ -22,7 +22,7 @@ Algorithm Description
 Algorithm Reference 
 ---------------------
 
-.. autofunction:: rskpp.rskmeanspp
+.. autofunction:: rskmeanspp
 
 
 
