@@ -6,8 +6,10 @@ This project contains an implementation of the rejection sampling based RS-k-mea
 Installation
 ------------
 
-Install from PyPI using ::
-  pip install rskpp
+Install from PyPI using 
+.. code-block:: python
+
+   pip install rskpp
 
 
 
