@@ -10,9 +10,9 @@ Installation
 
 Install from PyPI using
 
-   `
+   ``
    pip install rskpp
-   `
+   ``
 
 License 
 --------
