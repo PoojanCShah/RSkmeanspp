@@ -15,11 +15,6 @@ This package can be directly installed from PyPI using
    pip install rskpp
 
 
-Algorithm Description 
-----------------------
-
-fuck
-
 
 Algorithm Reference 
 ---------------------
