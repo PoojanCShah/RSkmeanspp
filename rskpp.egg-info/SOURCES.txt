@@ -1,5 +1,7 @@
+README.rst
 setup.py
 rskpp/__init__.py
+rskpp/example.py
 rskpp/rskpp.py
 rskpp.egg-info/PKG-INFO
 rskpp.egg-info/SOURCES.txt

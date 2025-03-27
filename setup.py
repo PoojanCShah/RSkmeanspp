@@ -2,11 +2,10 @@ from setuptools import setup
 
 setup(
     name = "rskpp",
-    version = "0.1", 
+    version = "4.2", 
     description= "Rejection Sampling Approach to k-means++ seeding",
     packages=["rskpp"], 
-    author="Poojan Shah", 
-    author_email="cs1221594@iitd.ac.in", 
+    author="Anonymous",  
     zip_safe = False, 
     install_requires=[
         "numpy", "scikit-learn", "matplotlib"
