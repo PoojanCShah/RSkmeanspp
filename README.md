@@ -50,7 +50,8 @@ plt.savefig("cluster-plot.png")
 2. Setup Virtual environment 
   ```
   > /usr/bin/python3 -m venv .venv
-  > pip3 install requirements.txt
+  > source .venv/bin/activate
+  > pip3 install -r requirements.txt
   ```
 3. Place the dataset in the `data` folder in csv format. Name it as `dataname.csv`
 4. The experiments can be run by running the corresponding python files : 
@@ -60,3 +61,5 @@ plt.savefig("cluster-plot.png")
   > python3 exp/exp1.py dataname
   ```
 5. The results of the experiments appear in the logs folder
+
+There is an example dataset called `synth_data` which can be used to run the code.
