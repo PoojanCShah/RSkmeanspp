@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name = "rskpp",
-    version = "4.3", 
+    version = "10.1", 
     description= "Rejection Sampling Approach to k-means++ seeding",
     packages=["rskpp"], 
     author="Anonymous",  

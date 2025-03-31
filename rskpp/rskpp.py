@@ -71,7 +71,7 @@ Utility function to compute cost
 '''
 
 
-def compute_cost(data : np.array, indices : list[int]) -> float : 
+def compute_cost(data : np.array, centers : list[int]) -> float : 
 
     '''
     input : 
@@ -84,7 +84,7 @@ def compute_cost(data : np.array, indices : list[int]) -> float :
     '''
 
     # Extract the cluster center points from the data using the indices
-    cluster_centers = data[indices]
+    cluster_centers = centers
 
     # Compute all pairwise distances between data points and cluster centers
     distances = np.linalg.norm(data[:, np.newaxis, :] - cluster_centers, axis=2)
@@ -142,4 +142,4 @@ def afkmc2(data: np.array, k: int, m: int) -> list[int]:
 
         indices.append(x_index)
 
-    return indices
+    return data[indices]

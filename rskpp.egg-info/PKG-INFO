@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: rskpp
-Version: 4.2
+Version: 10.1
 Summary: Rejection Sampling Approach to k-means++ seeding
 Author: Anonymous
 Requires-Dist: numpy
